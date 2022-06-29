@@ -1,0 +1,36 @@
+body {
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+span {
+  font-size: 20px;
+}
+
+div {
+  font-size: 30px;
+  background: url("../img/screenshot.jpg") 0 0 no-repeat;
+}
+
+@media (max-width: 767px) {
+  span {
+    font-size: 15px;
+  }
+
+  div {
+    font-size: 20px;
+  }
+}
+@supports (-webkit-appearance:none){
+div{background:url("../img/screenshot.webp") 0 0 no-repeat}
+}
+
+ @media (max-width: 767px){
+
+@supports (-webkit-appearance:none){
+
+}
+
+}
